@@ -87,7 +87,6 @@ domready(function() {
       clearNode(outcont);
       outcont.appendChild(out);
 
-      numImagesLoaded++;
       Tinycon.setBubble(numImagesLoaded);
     };
     img.src = evt.target.result;
@@ -109,6 +108,8 @@ domready(function() {
         showNotImageMsg(file, allouts);
         continue;
       }
+
+      numImagesLoaded++;
 
       var [outcont, bar] = addOutputProgress(imgtmpl, file, allouts);
 
