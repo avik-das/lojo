@@ -1,0 +1,55 @@
+body {
+  background: #222;
+  color: #eee;
+}
+
+#logo {
+  display: block;
+  margin: 50px auto;
+}
+
+#drop-zone {
+  border: 3px dashed #888;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  background: #ddd;
+  color: #222;
+
+  font-size: 400%;
+  font-family: 'Oleo Script', cursive;
+  text-transform: lowercase;
+}
+
+#drop-zone.dragover {
+  border-color: #555;
+  background: #bbb;
+}
+
+#output .image {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+#output .placeholder {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#output .alert {
+  width: 300px;
+  margin: auto;
+}
+
+#output canvas {
+  display: block;
+  margin: auto;
+}
