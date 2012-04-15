@@ -6,6 +6,8 @@ domready(function() {
     return s;
   }
 
+  var numImagesLoaded = 0;
+
   var HAT;
 
   var loadSombrero = function() {
@@ -84,6 +86,9 @@ domready(function() {
 
       clearNode(outcont);
       outcont.appendChild(out);
+
+      numImagesLoaded++;
+      Tinycon.setBubble(numImagesLoaded);
     };
     img.src = evt.target.result;
   };
