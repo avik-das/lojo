@@ -42,20 +42,20 @@ as well as the FileReader API.
 Examples of Lojo-ized Images
 ----------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/magritte.jpg) ->
+![](http://github.com/avik-das/lojo/raw/master/test-images/magritte.jpg)
 ![](http://github.com/avik-das/lojo/raw/master/test-images/magritte-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa.jpg) ->
+![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa.jpg)
 ![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo.png) ->
+![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo.png)
 ![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero.png) ->
+![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero.png)
 ![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero-lojoized.png)
