@@ -7,20 +7,31 @@ each image. Lojo was inspired by a typo, and brought to life by HTML 5.
 Quick Start
 -----------
 
-Lojo is a purely client-side web application, so hosting the application is as
-simple as opening `index.html` in a supported web browser.
+    git clone git://github.com/avik-das/lojo.git
+    cd lojo
+    python -m SimpleHTTPServer
+    # browse to localhost:8000
+    # start dragging and dropping!
+
+or
+
+    git clone git://github.com/avik-das/lojo.git
+    cd lojo
+    firefox index.html
+    # start dragging and dropping!
 
 Favicon Functionality
 ---------------------
+
+Lojo is a purely client-side web application, so hosting the application is as
+simple as opening `index.html` in a supported web browser.
 
 For full functionality, it seems that the file must be served through a web
 server. This issue is related to the `favicon.ico` file, which is required by
 the Tinycon.js library that displays notifications in the favicon. This does
 not affect any other functionality. Nevertheless, for the full experience,
-please use a web server, even one as simple as:
-
-    cd /path/to/lojo
-    python -m SimpleHTTPServer
+please use a web server, even one as simple as Python's built-in
+`SimpleHTTPServer`.
 
 Required Browser Features
 -------------------------
@@ -31,20 +42,20 @@ as well as the FileReader API.
 Examples of Lojo-ized Images
 ----------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/magritte.jpg)
+![](http://github.com/avik-das/lojo/raw/master/test-images/magritte.jpg) ->
 ![](http://github.com/avik-das/lojo/raw/master/test-images/magritte-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa.jpg)
+![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa.jpg) ->
 ![](http://github.com/avik-das/lojo/raw/master/test-images/mona-lisa-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo.png)
+![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo.png) ->
 ![](http://github.com/avik-das/lojo/raw/master/test-images/sinatra-logo-lojoized.png)
 
 -------------------------------------------------------------------------------
 
-![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero.png)
+![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero.png) ->
 ![](http://github.com/avik-das/lojo/raw/master/test-images/sombrero-lojoized.png)
