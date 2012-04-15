@@ -53,3 +53,8 @@ body {
   display: block;
   margin: auto;
 }
+
+#footer {
+  text-align: center;
+  padding-top: 20px;
+}
